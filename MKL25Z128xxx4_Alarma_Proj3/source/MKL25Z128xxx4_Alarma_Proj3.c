@@ -200,6 +200,7 @@ int main(void) {
 				if(key == '*'){
 					Print_enable=0;
 					estado=1;
+					DelayTPM();
 
 				}
 				if(key == '#'){							//Cambio de Contraseña
